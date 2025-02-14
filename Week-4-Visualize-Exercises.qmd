@@ -126,6 +126,7 @@ What will this code do?
 #Add two geometries to one plot
 
 ```{r}
+#|llabel: plot-width-displ-hwy-class
 ggplot(mpg, aes(x = displ, y = hwy)) + 
   geom_point(aes(color = class)) +
   geom_smooth(color = "black", 
